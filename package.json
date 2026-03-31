@@ -2,8 +2,7 @@
   "name": "scarpakz-vue-expense-json",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT",
-    "serve": "json-server db.json"
+    "start": "json-server --watch db.json --port $PORT --host 0.0.0.0"
   },
   "dependencies": {
     "json-server": "^0.17.4"
